@@ -7,8 +7,8 @@ h1{
 }
 
 ul{
-    color: #A8DADC;
-    list-style-type: disc;
+    color: #a7dadc;
+    list-style-type: none;
 }
 
 ol{
@@ -23,3 +23,17 @@ ol{
     color: #1D3557;
     background-color: #F1FAEE;
 }
+
+ol>li{
+    font-weight: bold;
+}
+
+ul li::before{
+    content:"\2022";
+    color: #E63946;
+    font-weight: bold;
+    display: inline-block;
+    width:1em;
+    margin-left:-2em;
+}
+

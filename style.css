@@ -1,44 +1,57 @@
 body{
-    background-color: #1D3557;
+    background-color: #475C7A;
 }
 
 h1{
-    color: #E63946;
+    color: #FCBB6D;
+	background-color: #685D79;
 }
 
 ul{
-    color: #a7dadc;
     list-style-type: none;
 }
 
 ol{
+	background-color: #D8737F;
     color: #F1FAEE;
-}
-
-.non_sporting{
-    background-color: #45789D;
-}
-
-#collie{
-    color: #1D3557;
-    background-color: #F1FAEE;
-}
-
-ol>li{
-    font-weight: bold;
+	font-weight:bold;
 }
 
 ul li::before{
     content:"\2022";
-    color: #E63946;
+    color: #FCBB6D;
     font-weight: bold;
     display: inline-block;
     width:1em;
     margin-left:-2em;
 }
 
-ul li:nth-child(odd){
-    color: #E63946;
+ol>li:nth-child(4n+1){
+	background-color: #AB6C82;
 }
+
+ol>li:nth-child(4n+3){
+	background-color: #685D79;
+}
+
+ul:nth-child(4n+2){
+	background-color: #AB6C82;
+}
+
+ul:nth-child(4n+4){
+	background-color: #685D79;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 

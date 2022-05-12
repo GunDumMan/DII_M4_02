@@ -37,3 +37,8 @@ ul li::before{
     margin-left:-2em;
 }
 
+ul li:nth-child(odd){
+    color: #E63946;
+}
+
+
